@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-</head>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="Style.css">
+        <title>Login</title>
+    </head>
+    <body>
+      <h1>Login</h1>
+        <form class="login-form">
+      <p class="login-text">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-lock fa-stack-1x"></i>
+        </span>
+      </p>
+       <div>
+      <input type="Id alumno" class="login-username" autofocus="true" required="true" placeholder="Id alumno" />
+      <input type="password" class="login-password" required="true" placeholder="Password" />
+      <label for="plantel">Plantel:</label>
+        <select id="Plantel">
+          <option value="Texcoco">Texcoco</option>
+          <option value="Texcoco II">Texcoco II</option>
+          <option value="Teotihuacan">Teotihuacan</option>
+          <option value="Ixtapaluca">Ixtapaluca</option>
+        </select>
+        <input type="submit" name="Login" value="Login" class="login-submit" />
+       </div>
+    </form>
+    <a href="#" class="Cambiar_contraseña">Olvidaste tu contraseña?</a>
+    <div class= "underlay-photo"></div>
     
-</body>
-</html>
+    
+    </body>
+    </html>
